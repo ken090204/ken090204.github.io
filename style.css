@@ -628,3 +628,41 @@ span{
         grid-template-columns: repeat(1,1fr);
     }
 }
+/* Base styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar.active {
+    display: block;
+}
+
+#menu-icon {
+    display: none;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    #menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    .navbar {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar.active {
+        display: flex;
+    }
+
+    header nav a {
+        display: block;
+        padding: 10px 0;
+    }
+}
