@@ -629,7 +629,6 @@ span{
     }
 }
 
-/* Further Enhancements for Responsiveness */
 @media (max-width: 768px) {
     html {
         font-size: 50%;
