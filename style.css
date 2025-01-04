@@ -689,3 +689,99 @@ span{
         line-height: 35px;
     }
 }
+@media (max-width: 480px) {
+    html {
+        font-size: 45%;
+    }
+    .header {
+        padding: 1rem 5%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo {
+        font-size: 2.5rem;
+    }
+    #menu-icon {
+        display: block;
+        margin-top: 1rem;
+    }
+    .navbar {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 100%;
+        padding: 2rem;
+        background: rgba(0, 0, 0, 0.9);
+        border-radius: 0 0 2rem 2rem;
+    }
+    .navbar.active {
+        display: block;
+    }
+    .navbar a {
+        font-size: 1.6rem;
+        display: block;
+        margin: 1.5rem 0;
+        text-align: center;
+    }
+    .home {
+        flex-direction: column-reverse;
+        gap: 2rem;
+        padding: 5rem 3%;
+    }
+    .home-content {
+        text-align: center;
+    }
+    .home-content h1 {
+        font-size: 5rem;
+    }
+    .home-content h3 {
+        font-size: 2rem;
+    }
+    .home-content p {
+        font-size: 1.4rem;
+        line-height: 1.6;
+    }
+    .home-img img {
+        width: 70%;
+        height: auto;
+    }
+    .services-container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .service-box {
+        height: auto;
+        padding: 2rem;
+    }
+    .testimonials .wrapper {
+        grid-template-columns: 1fr;
+    }
+    .testimonial-item {
+        max-width: 90%;
+        margin: 1rem auto;
+    }
+    .contact form {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .contact form .input-box,
+    .contact form textarea {
+        width: 100%;
+    }
+    .footer {
+        padding: 2rem 5%;
+        text-align: center;
+    }
+    .footer .social a {
+        font-size: 20px;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        margin: 0 5px;
+    }
+    .footer ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+}
