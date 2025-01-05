@@ -801,10 +801,6 @@ section {
         font-size: 4rem;
     }
 
-    .home-img img {
-        max-width: 90%;
-    }
-
     .services-container {
         grid-template-columns: 1fr;
     }
@@ -843,10 +839,6 @@ section {
 
     .home-content h1 {
         font-size: 3rem;
-    }
-
-    .home-img img {
-        max-width: 100%;
     }
 
     .navbar {
